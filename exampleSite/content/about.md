@@ -8,7 +8,7 @@ Tyger Minimal Blog is a minimal, responsive, CSS-only [Hugo](//gohugo.io/) theme
 
 [Demo](https://tyger-technology.github.io/tyger-minimal-blog)
 
-![Tyger Minimal Blog theme screenshot](https://raw.githubusercontent.com/tyger-technology/tyger-minimal-blog/blob/master/images/splash.png)
+![Tyger Minimal Blog theme screenshot](https://raw.githubusercontent.com/tyger-technology/tyger-minimal-blog/master/images/tn.png)
 
 ## Installation
 
