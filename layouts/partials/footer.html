@@ -1,0 +1,20 @@
+    <footer>
+      <div class="container blog-footer">
+          <span>{{ .Site.Params.footerText }}</span>
+          {{ if or (isset .Site.Params "twitteruser") (isset .Site.Params "githubuser" )}}
+            <span>—</span>
+          {{ end }}
+          {{if .Site.Params.twitterUser}}
+            <span><a href="https://twitter.com/{{.Site.Params.twitterUser}}">Twitter</a></span>
+          {{ end }}
+          {{ if and (isset .Site.Params "twitteruser") (isset .Site.Params "githubuser" )}}
+            <span>|</span>
+          {{ end }}
+          {{if .Site.Params.githubUser}}
+            <span><a href="https://github.com/{{.Site.Params.githubUser}}">Github</a></span>
+          {{ end }}
+      </div>
+    </footer>
+
+  </body>
+</html>

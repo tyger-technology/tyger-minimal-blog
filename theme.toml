@@ -1,0 +1,13 @@
+name = "Tyger Minimal Blog"
+license = "MIT"
+licenselink = "https://github.com/tyger-technology/tyger-minimal-blog/blob/master/LICENSE.md"
+description = ""
+homepage = "https://github.com/tyger-technology/tyger-minimal-blog/"
+tags = ["minimal","blog","bootstrap","clean","responsive"]
+features = ["blog"]
+min_version = "0.19"
+
+[author]
+  name = "David Buck"
+  homepage = "https://tyger.technology"
+

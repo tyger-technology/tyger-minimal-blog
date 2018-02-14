@@ -1,0 +1,30 @@
+title = "Tyger Minimal Blog"
+baseURL = "https://example.org/"
+languageCode = "en-us"
+theme = "tyger-minimal-blog"
+themesDir = "../.."
+disableKinds = ["taxonomy", "taxonomyTerm"]
+pygmentsStyle= "manni"
+
+[[menu.main]]
+identifier = "about"
+name       = "About"
+url        = "/about/"
+weight     = 3
+
+[[menu.main]]
+identifier = "posts"
+name       = "Posts"
+url        = "/post/"
+weight     = 1
+
+[[menu.main]]
+identifier = "projects"
+name       = "Projects"
+url        = "/project/"
+weight     = 2
+
+[params]
+  footerText = "Tyger Minimal Blog Theme"
+  twitterUser = "GoHugoIO"
+  githubUser = "gohugoio"

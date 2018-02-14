@@ -1,0 +1,46 @@
+{
+  "name": "tyger-minimal-blog",
+  "description": "A minimal Hugo theme",
+  "version": "0.1.0",
+  "author": {
+    "name": "David Buck",
+    "url": "https://tyger.technology"
+  },
+  "repository": "tyger-technology/tyger-minimal-blog",
+  "homepage": "https://github.com/tyger-technology/tyger-minimal-blog#readme",
+  "keywords": [
+    "bootstrap",
+    "bootstrap-4",
+    "theme",
+    "hugo",
+    "gohugo"
+  ],
+  "bugs": {
+    "url": "https://github.com/tyger-technology/tyger-minimal-blog/issues"
+  },
+  "license": "MIT",
+  "scripts": {
+    "stylelint": "stylelint 'src/sass/*.scss'",
+    "sass": "node-sass --output-style expanded --source-map true --source-map-contents true src/sass/minimal-blog.scss static/css/minimal-blog.css",
+    "cleancss": "cleancss --level 1 --source-map --source-map-inline-sources --output static/css/minimal-blog.min.css static/css/minimal-blog.css",
+    "build": "run-s stylelint sass cleancss",
+    "serve": "hugo server --source=exampleSite --themesDir=../..",
+    "watch:css": "onchange 'src/sass/' --  run-s build",
+    "watch": "run-p serve watch:*",
+    "copy": "cp node_modules/bootstrap/dist/css/* static/vendor/bootstrap/css"
+  },
+  "dependencies": {
+    "bootstrap": "^4.0.0"
+  },
+  "devDependencies": {
+    "clean-css": "^4.1.9",
+    "clean-css-cli": "^4.1.10",
+    "node-sass": "^4.7.2",
+    "npm-run-all": "^4.1.2",
+    "onchange": "^3.2.1",
+    "stylelint": "^8.3.1",
+    "stylelint-config-sass-guidelines": "^4.0.1",
+    "stylelint-order": "^0.8.0",
+    "stylelint-scss": "^2.3.0"
+  }
+}

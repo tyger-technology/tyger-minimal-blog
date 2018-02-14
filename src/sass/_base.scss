@@ -1,0 +1,70 @@
+@charset 'utf-8';
+
+html {
+  min-height: 100%;
+  position: relative;
+}
+
+
+body {
+  color: $color-grey;
+  font-family: 'Cormorant Garamond', serif;
+  margin-bottom: 70px;
+
+}
+
+p {
+  font-size: 21px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 45px;
+  font-weight: 400;
+}
+
+
+h2 {
+  font-size: 33px;
+  font-weight: 400;
+}
+
+@media (max-width: 630px) {
+  p {
+    font-size: 18px;
+  }
+
+  h1 {
+    font-size: 34px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+}
+
+a {
+  color: $color-blue;
+  transition: all 0.3s;
+
+  &:hover,
+  &:focus {
+    color: $color-yellow;
+    text-decoration: none;
+  }
+}
+
+ul {
+  font-size: 21px;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+li {
+  margin-bottom: 20px;
+}
+
+.container {
+  max-width: 630px;
+}

@@ -1,0 +1,11 @@
+{{ partial "header.html" . }}
+
+<article class="container blog-post">
+  <h1>{{ .Title }}</h1>
+  {{ if not .Params.hide_date }}
+    <div class="blog-post-date"><time>{{ .Date.Format "Jan 2, 2006" }}</time></div>
+  {{end}}
+  {{ .Content }}
+</article>
+
+{{ partial "footer.html" . }}

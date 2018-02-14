@@ -1,0 +1,18 @@
+
+
+
+{{ partial "header.html" . }}
+
+<main role="main" class="container blog-list">
+  <ul>
+    {{ range where .Site.RegularPages "Section" "post" }}
+      <li>
+        <time>{{ .Date.Format "Jan 2, 2006" }}</time> — <a href="{{ .Permalink }}">{{ .Title }}</a>
+      </li>
+    {{ end }}
+  </ul>
+</main>
+
+{{ partial "footer.html" . }}
+
+

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    {{ .Hugo.Generator }}
+    <link rel="icon" type="image/png" href='{{ "favicon.png" | absURL }}' />
+    {{ if .RSSLink }}
+      <link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
+      <link href="{{ .RSSLink }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}" />
+    {{ end }}
+    <title>{{.Site.Title }}</title>
+    <link href='{{ "vendor/bootstrap/css/bootstrap.min.css" | absURL }}'  rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:400,400i" rel="stylesheet">
+    <link href='{{ "css/minimal-blog.min.css" | absURL }}' rel="stylesheet">
+  </head>
+
+  <body>
+    <header class="container">
+      <nav class="nav">
+        <span class="nav-break">
+          <a class="navbar-brand" href="{{ .Site.BaseURL }}">{{.Site.Title }}</a>
+        </span>
+        {{ range .Site.Menus.main.ByWeight }}
+          {{ if eq "posts" .Identifier  }}
+            <a class="nav-link" href="{{ $.Site.BaseURL }}">{{ .Name }}</a>
+          {{ else }}
+            <a class="nav-link" href="{{ .URL | absURL }}">{{ .Name }}</a>
+          {{ end }}
+        {{ end }}
+      </nav>
+    </header>
