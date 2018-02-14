@@ -51,7 +51,6 @@ Tweet Hugo 0.35 just released! This is the version you really, really want!https
       
       <guid>https://tyger-technology.github.io/tyger-minimal-blog/about/</guid>
       <description>Tyger Minimal Blog is a minimal, responsive, CSS-only Hugo theme that uses Boostrap 4.
-Demo
 Installation In your Hugo site themes directory, run:
 $ git clone https://github.com/tyger-technology/tyger-minimal-blog/  Next, open config.toml in the base of the Hugo site and ensure the theme option is set to tyger-minimal-blog.
 theme = &amp;quot;tyger-minimal-blog&amp;quot;  For more information read the official Hugo setup guide.
