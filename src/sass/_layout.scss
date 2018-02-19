@@ -6,7 +6,7 @@
   padding-top: 50px;
 
   a {
-    color: $color-grey;
+    color: $color-grey-dark;
     transition: all 0.35s;
 
     &:hover,
@@ -16,7 +16,7 @@
   }
 
   .nav-break {
-    border-right: 1px solid $color-grey;
+    border-right: 1px solid $color-grey-dark;
     font-style: italic;
   }
 
@@ -40,7 +40,7 @@
   padding-top: 50px;
 
   a {
-    color: $color-grey;
+    color: $color-grey-dark;
     font-style: italic;
     transition: all 0.3s;
 

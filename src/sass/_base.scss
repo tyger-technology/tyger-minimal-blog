@@ -7,7 +7,7 @@ html {
 
 
 body {
-  color: $color-grey;
+  color: $color-grey-dark;
   font-family: 'Cormorant Garamond', serif;
   margin-bottom: 70px;
 
@@ -67,4 +67,11 @@ li {
 
 .container {
   max-width: 630px;
+}
+
+code {
+  background-color: $color-grey-light;
+  color: $color-grey-dark;
+  font-size: 14px;
+  padding: 3px;
 }

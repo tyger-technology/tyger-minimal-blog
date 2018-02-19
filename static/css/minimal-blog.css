@@ -61,6 +61,13 @@ li {
   max-width: 630px;
 }
 
+code {
+  background-color: #f1f4f4;
+  color: #22262a;
+  font-size: 14px;
+  padding: 3px;
+}
+
 .nav {
   font-size: 21px;
   padding-bottom: 20px;
