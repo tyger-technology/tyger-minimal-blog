@@ -10,15 +10,15 @@ Tyger Minimal Blog is a minimal, responsive, CSS-only [Hugo](//gohugo.io/) theme
 
 In your Hugo site `themes` directory, run:
 
-```
+{{< highlight Bash >}}
 $ git clone https://github.com/tyger-technology/tyger-minimal-blog/
-```
+{{< /highlight >}}
 
 Next, open `config.toml` in the base of the Hugo site and ensure the theme option is set to `tyger-minimal-blog`.
 
-```
+{{< highlight toml >}}
 theme = "tyger-minimal-blog"
-```
+{{< /highlight >}}
 
 For more information read the official Hugo [setup guide](//gohugo.io/getting-started/installing/).
 
@@ -30,7 +30,7 @@ You may need to delete the line: `themesDir = "../.."`
 
 The example config file includes an menu for an about page and both post and project sections:
 
-```
+{{< highlight toml >}}
 [[menu.main]]
 identifier = "about"
 name       = "About"
@@ -47,24 +47,23 @@ weight     = 1
 identifier = "projects"
 name       = "Projects"
 url        = "/project/"
-weight     = 2
-```
+{{< /highlight >}}
 
 If want the menu to show only your sections, remove the example menu and add the following line to the config file:
-```
+{{< highlight toml >}}
 sectionPagesMenu = "main"
-```
+{{< /highlight >}}
 
 Refer to the Hugo docs for more information on [menu setup](https://gohugo.io/content-management/menus/).
 
 The footer text, Twitter & Github links can be set in the config file:
 
-```
+{{< highlight toml >}}
 [params]
   footerText = "Tyger Minimal Blog Theme"
   twitterUser = "GoHugoIO"
   githubUser = "gohugoio"
-```
+{{< /highlight >}}
 
 ## Theme Defaults
 
@@ -79,15 +78,19 @@ This theme includes the original SCSS files, which you can customize. Serveral N
 
 To install the development tools, run:
 
-`$ npm install`
+{{< highlight Bash >}}
+$ npm install
+{{< /highlight >}}
 
 To launch the hugo server with the example site and watch for any changes to the SCSS files, run:
-
-`$ npm run watch`
+{{< highlight Bash >}}
+$ npm run watch
+{{< /highlight >}}
 
  To compile and minify the SCSS files to CSS in the `static` directory, run:
-
-`$ npm run build`
+{{< highlight Bash >}}
+$ npm run build
+{{< /highlight >}}
 
 ## Contributing
 
@@ -95,4 +98,4 @@ Have you found a bug or got an idea for a new feature? Feel free to use the [iss
 
 ## License
 
-This theme is released under the [MIT license](https://github.com/tyger-technology/tyger-minimal-blog//blob/master/LICENSE.md).
+This theme is released under the [MIT license](https://github.com/tyger-technology/tyger-minimal-blog/blob/master/LICENSE.md).
