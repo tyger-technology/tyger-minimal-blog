@@ -48,13 +48,11 @@
 
 <p>In your Hugo site <code>themes</code> directory, run:</p>
 
-<pre><code>$ git clone https://github.com/tyger-technology/tyger-minimal-blog/
-</code></pre>
+<div class="highlight"><pre style="background-color:#f0f3f3;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Bash" data-lang="Bash">$ git clone https://github.com/tyger-technology/tyger-minimal-blog/</code></pre></div>
 
 <p>Next, open <code>config.toml</code> in the base of the Hugo site and ensure the theme option is set to <code>tyger-minimal-blog</code>.</p>
 
-<pre><code>theme = &quot;tyger-minimal-blog&quot;
-</code></pre>
+<div class="highlight"><pre style="background-color:#f0f3f3;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-toml" data-lang="toml">theme = <span style="color:#c30">&#34;tyger-minimal-blog&#34;</span></code></pre></div>
 
 <p>For more information read the official Hugo <a href="//gohugo.io/getting-started/installing/">setup guide</a>.</p>
 
@@ -66,39 +64,34 @@
 
 <p>The example config file includes an menu for an about page and both post and project sections:</p>
 
-<pre><code>[[menu.main]]
-identifier = &quot;about&quot;
-name       = &quot;About&quot;
-url        = &quot;/about/&quot;
-weight     = 3
+<div class="highlight"><pre style="background-color:#f0f3f3;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-toml" data-lang="toml">[[menu.main]]
+identifier = <span style="color:#c30">&#34;about&#34;</span>
+name       = <span style="color:#c30">&#34;About&#34;</span>
+url        = <span style="color:#c30">&#34;/about/&#34;</span>
+weight     = <span style="color:#f60">3</span>
 
 [[menu.main]]
-identifier = &quot;posts&quot;
-name       = &quot;Posts&quot;
-url        = &quot;/post/&quot;
-weight     = 1
+identifier = <span style="color:#c30">&#34;posts&#34;</span>
+name       = <span style="color:#c30">&#34;Posts&#34;</span>
+url        = <span style="color:#c30">&#34;/post/&#34;</span>
+weight     = <span style="color:#f60">1</span>
 
 [[menu.main]]
-identifier = &quot;projects&quot;
-name       = &quot;Projects&quot;
-url        = &quot;/project/&quot;
-weight     = 2
-</code></pre>
+identifier = <span style="color:#c30">&#34;projects&#34;</span>
+name       = <span style="color:#c30">&#34;Projects&#34;</span>
+url        = <span style="color:#c30">&#34;/project/&#34;</span></code></pre></div>
 
-<p>If want the menu to show only your sections, remove the example menu and add the following line to the config file:</p>
-
-<pre><code>sectionPagesMenu = &quot;main&quot;
-</code></pre>
+<p>If want the menu to show only your sections, remove the example menu and add the following line to the config file:
+<div class="highlight"><pre style="background-color:#f0f3f3;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-toml" data-lang="toml">sectionPagesMenu = <span style="color:#c30">&#34;main&#34;</span></code></pre></div></p>
 
 <p>Refer to the Hugo docs for more information on <a href="https://gohugo.io/content-management/menus/">menu setup</a>.</p>
 
 <p>The footer text, Twitter &amp; Github links can be set in the config file:</p>
 
-<pre><code>[params]
-  footerText = &quot;Tyger Minimal Blog Theme&quot;
-  twitterUser = &quot;GoHugoIO&quot;
-  githubUser = &quot;gohugoio&quot;
-</code></pre>
+<div class="highlight"><pre style="background-color:#f0f3f3;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-toml" data-lang="toml">[params]
+  footerText = <span style="color:#c30">&#34;Tyger Minimal Blog Theme&#34;</span>
+  twitterUser = <span style="color:#c30">&#34;GoHugoIO&#34;</span>
+  githubUser = <span style="color:#c30">&#34;gohugoio&#34;</span></code></pre></div>
 
 <h2 id="theme-defaults">Theme Defaults</h2>
 
@@ -113,15 +106,13 @@ weight     = 2
 
 <p>To install the development tools, run:</p>
 
-<p><code>$ npm install</code></p>
+<div class="highlight"><pre style="background-color:#f0f3f3;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Bash" data-lang="Bash">$ npm install</code></pre></div>
 
-<p>To launch the hugo server with the example site and watch for any changes to the SCSS files, run:</p>
+<p>To launch the hugo server with the example site and watch for any changes to the SCSS files, run:
+<div class="highlight"><pre style="background-color:#f0f3f3;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Bash" data-lang="Bash">$ npm run watch</code></pre></div></p>
 
-<p><code>$ npm run watch</code></p>
-
-<p>To compile and minify the SCSS files to CSS in the <code>static</code> directory, run:</p>
-
-<p><code>$ npm run build</code></p>
+<p>To compile and minify the SCSS files to CSS in the <code>static</code> directory, run:
+<div class="highlight"><pre style="background-color:#f0f3f3;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Bash" data-lang="Bash">$ npm run build</code></pre></div></p>
 
 <h2 id="contributing">Contributing</h2>
 
@@ -129,7 +120,7 @@ weight     = 2
 
 <h2 id="license">License</h2>
 
-<p>This theme is released under the <a href="https://github.com/tyger-technology/tyger-minimal-blog//blob/master/LICENSE.md">MIT license</a>.</p>
+<p>This theme is released under the <a href="https://github.com/tyger-technology/tyger-minimal-blog/blob/master/LICENSE.md">MIT license</a>.</p>
 
 </article>
 
