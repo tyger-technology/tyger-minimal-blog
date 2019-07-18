@@ -3,50 +3,50 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://tyger-technology.github.io/tyger-minimal-blog/post/</loc>
+    <loc>https://example.org/post/</loc>
     <lastmod>2018-02-05T21:25:54+11:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://tyger-technology.github.io/tyger-minimal-blog/post/syntaxhilight/</loc>
+    <loc>https://example.org/post/syntaxhilight/</loc>
     <lastmod>2018-02-05T21:25:54+11:00</lastmod>
   </url>
   
   <url>
-    <loc>https://tyger-technology.github.io/tyger-minimal-blog/</loc>
+    <loc>https://example.org/</loc>
     <lastmod>2018-02-05T21:25:54+11:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://tyger-technology.github.io/tyger-minimal-blog/project/new-project/</loc>
+    <loc>https://example.org/project/new-project/</loc>
     <lastmod>2018-02-04T21:39:46+11:00</lastmod>
   </url>
   
   <url>
-    <loc>https://tyger-technology.github.io/tyger-minimal-blog/project/</loc>
+    <loc>https://example.org/project/</loc>
     <lastmod>2018-02-04T21:39:46+11:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://tyger-technology.github.io/tyger-minimal-blog/post/shortcodes/</loc>
+    <loc>https://example.org/post/shortcodes/</loc>
     <lastmod>2018-02-04T21:23:00+11:00</lastmod>
   </url>
   
   <url>
-    <loc>https://tyger-technology.github.io/tyger-minimal-blog/about/</loc>
+    <loc>https://example.org/about/</loc>
     <lastmod>2018-02-03T14:02:23+11:00</lastmod>
   </url>
   
   <url>
-    <loc>https://tyger-technology.github.io/tyger-minimal-blog/post/styles/</loc>
+    <loc>https://example.org/post/styles/</loc>
     <lastmod>2018-02-02T21:25:10+11:00</lastmod>
   </url>
   
   <url>
-    <loc>https://tyger-technology.github.io/tyger-minimal-blog/post/first-post/</loc>
+    <loc>https://example.org/post/first-post/</loc>
     <lastmod>2018-02-01T21:16:37+11:00</lastmod>
   </url>
   

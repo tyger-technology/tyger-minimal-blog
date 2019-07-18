@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tyger Minimal Blog</title>
-    <link>https://tyger-technology.github.io/tyger-minimal-blog/</link>
+    <link>https://example.org/</link>
     <description>Recent content on Tyger Minimal Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 05 Feb 2018 21:25:54 +1100</lastBuildDate>
     
-	<atom:link href="https://tyger-technology.github.io/tyger-minimal-blog/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Syntax Hilighting Examples</title>
-      <link>https://tyger-technology.github.io/tyger-minimal-blog/post/syntaxhilight/</link>
+      <link>https://example.org/post/syntaxhilight/</link>
       <pubDate>Mon, 05 Feb 2018 21:25:54 +1100</pubDate>
       
-      <guid>https://tyger-technology.github.io/tyger-minimal-blog/post/syntaxhilight/</guid>
+      <guid>https://example.org/post/syntaxhilight/</guid>
       <description>Hugo syntax hilighing documentation
 Javascript Example
 // index.js var arr = [1, 2, 3, 4, 5]; var b = arr.map(x =&amp;gt; x * x); console.log(b);  HTML example
@@ -25,20 +25,20 @@ Javascript Example
     
     <item>
       <title>New Project</title>
-      <link>https://tyger-technology.github.io/tyger-minimal-blog/project/new-project/</link>
+      <link>https://example.org/project/new-project/</link>
       <pubDate>Sun, 04 Feb 2018 21:39:46 +1100</pubDate>
       
-      <guid>https://tyger-technology.github.io/tyger-minimal-blog/project/new-project/</guid>
+      <guid>https://example.org/project/new-project/</guid>
       <description>Et pariatur excepteur nulla sit duis dolor veniam excepteur nisi incididunt sit. Fugiat laboris sit cupidatat proident officia amet velit. Consectetur ipsum ipsum consectetur nisi adipisicing duis velit nulla nulla laboris quis. Quis reprehenderit fugiat proident do fugiat anim proident nostrud culpa adipisicing eu cillum do labore.
 Reprehenderit labore aliqua non magna ex non consequat. Ea qui duis nisi dolor exercitation dolor tempor incididunt esse in veniam. Labore mollit esse commodo do culpa ad proident qui laboris proident minim.</description>
     </item>
     
     <item>
       <title>Shortcode Examples</title>
-      <link>https://tyger-technology.github.io/tyger-minimal-blog/post/shortcodes/</link>
+      <link>https://example.org/post/shortcodes/</link>
       <pubDate>Sun, 04 Feb 2018 21:23:00 +1100</pubDate>
       
-      <guid>https://tyger-technology.github.io/tyger-minimal-blog/post/shortcodes/</guid>
+      <guid>https://example.org/post/shortcodes/</guid>
       <description>Hugo shortcodes documentation
 Tweet Hugo 0.35 just released! This is the version you really, really want!https://t.co/3S1KILIOT8 @bepsays has been busy. #gohugo #golang #staticgen #webdev
 &amp;mdash; GoHugo.io (@GoHugoIO) January 31, 2018  Youtube   Vimeo   Gist</description>
@@ -46,10 +46,10 @@ Tweet Hugo 0.35 just released! This is the version you really, really want!https
     
     <item>
       <title>About</title>
-      <link>https://tyger-technology.github.io/tyger-minimal-blog/about/</link>
+      <link>https://example.org/about/</link>
       <pubDate>Sat, 03 Feb 2018 14:02:23 +1100</pubDate>
       
-      <guid>https://tyger-technology.github.io/tyger-minimal-blog/about/</guid>
+      <guid>https://example.org/about/</guid>
       <description>Tyger Minimal Blog is a minimal, responsive, CSS-only Hugo theme that uses Boostrap 4.
 Installation In your Hugo site themes directory, run:
 $ git clone https://github.com/tyger-technology/tyger-minimal-blog/ Next, open config.toml in the base of the Hugo site and ensure the theme option is set to tyger-minimal-blog.
@@ -59,10 +59,10 @@ Config File Setup Take a look inside the exampleSite folder of this theme.</desc
     
     <item>
       <title>Styles</title>
-      <link>https://tyger-technology.github.io/tyger-minimal-blog/post/styles/</link>
+      <link>https://example.org/post/styles/</link>
       <pubDate>Fri, 02 Feb 2018 21:25:10 +1100</pubDate>
       
-      <guid>https://tyger-technology.github.io/tyger-minimal-blog/post/styles/</guid>
+      <guid>https://example.org/post/styles/</guid>
       <description>Basic styles
 link, strong, italic, deletion, insertion.
 Headers
@@ -73,10 +73,10 @@ Image</description>
     
     <item>
       <title>First Post</title>
-      <link>https://tyger-technology.github.io/tyger-minimal-blog/post/first-post/</link>
+      <link>https://example.org/post/first-post/</link>
       <pubDate>Thu, 01 Feb 2018 21:16:37 +1100</pubDate>
       
-      <guid>https://tyger-technology.github.io/tyger-minimal-blog/post/first-post/</guid>
+      <guid>https://example.org/post/first-post/</guid>
       <description>Sunt anim qui tempor non dolore ex consectetur excepteur do enim dolore ea sint quis. Quis sint amet incididunt sunt labore exercitation aliqua. Nisi officia id labore dolor aute reprehenderit dolor mollit adipisicing.
 Et fugiat adipisicing adipisicing consequat aliqua tempor qui magna non aliquip. Elit et duis fugiat enim minim velit ea cupidatat quis eiusmod. Eu officia minim ex magna anim velit duis est ex anim. Labore incididunt dolor eiusmod magna exercitation occaecat pariatur fugiat eu sunt duis Lorem.</description>
     </item>
