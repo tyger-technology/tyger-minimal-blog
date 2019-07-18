@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Tyger Minimal Blog</title>
-    <link>https://example.org/post/</link>
+    <link>https://tyger-technology.github.io/tyger-minimal-blog/post/</link>
     <description>Recent content in Posts on Tyger Minimal Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 05 Feb 2018 21:25:54 +1100</lastBuildDate>
     
-	<atom:link href="https://example.org/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://tyger-technology.github.io/tyger-minimal-blog/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Syntax Hilighting Examples</title>
-      <link>https://example.org/post/syntaxhilight/</link>
+      <link>https://tyger-technology.github.io/tyger-minimal-blog/post/syntaxhilight/</link>
       <pubDate>Mon, 05 Feb 2018 21:25:54 +1100</pubDate>
       
-      <guid>https://example.org/post/syntaxhilight/</guid>
+      <guid>https://tyger-technology.github.io/tyger-minimal-blog/post/syntaxhilight/</guid>
       <description>Hugo syntax hilighing documentation
 Javascript Example
 // index.js var arr = [1, 2, 3, 4, 5]; var b = arr.map(x =&amp;gt; x * x); console.log(b);  HTML example
@@ -25,10 +25,10 @@ Javascript Example
     
     <item>
       <title>Shortcode Examples</title>
-      <link>https://example.org/post/shortcodes/</link>
+      <link>https://tyger-technology.github.io/tyger-minimal-blog/post/shortcodes/</link>
       <pubDate>Sun, 04 Feb 2018 21:23:00 +1100</pubDate>
       
-      <guid>https://example.org/post/shortcodes/</guid>
+      <guid>https://tyger-technology.github.io/tyger-minimal-blog/post/shortcodes/</guid>
       <description>Hugo shortcodes documentation
 Tweet Hugo 0.35 just released! This is the version you really, really want!https://t.co/3S1KILIOT8 @bepsays has been busy. #gohugo #golang #staticgen #webdev
 &amp;mdash; GoHugo.io (@GoHugoIO) January 31, 2018  Youtube   Vimeo   Gist</description>
@@ -36,10 +36,10 @@ Tweet Hugo 0.35 just released! This is the version you really, really want!https
     
     <item>
       <title>Styles</title>
-      <link>https://example.org/post/styles/</link>
+      <link>https://tyger-technology.github.io/tyger-minimal-blog/post/styles/</link>
       <pubDate>Fri, 02 Feb 2018 21:25:10 +1100</pubDate>
       
-      <guid>https://example.org/post/styles/</guid>
+      <guid>https://tyger-technology.github.io/tyger-minimal-blog/post/styles/</guid>
       <description>Basic styles
 link, strong, italic, deletion, insertion.
 Headers
@@ -50,10 +50,10 @@ Image</description>
     
     <item>
       <title>First Post</title>
-      <link>https://example.org/post/first-post/</link>
+      <link>https://tyger-technology.github.io/tyger-minimal-blog/post/first-post/</link>
       <pubDate>Thu, 01 Feb 2018 21:16:37 +1100</pubDate>
       
-      <guid>https://example.org/post/first-post/</guid>
+      <guid>https://tyger-technology.github.io/tyger-minimal-blog/post/first-post/</guid>
       <description>Sunt anim qui tempor non dolore ex consectetur excepteur do enim dolore ea sint quis. Quis sint amet incididunt sunt labore exercitation aliqua. Nisi officia id labore dolor aute reprehenderit dolor mollit adipisicing.
 Et fugiat adipisicing adipisicing consequat aliqua tempor qui magna non aliquip. Elit et duis fugiat enim minim velit ea cupidatat quis eiusmod. Eu officia minim ex magna anim velit duis est ex anim. Labore incididunt dolor eiusmod magna exercitation occaecat pariatur fugiat eu sunt duis Lorem.</description>
     </item>
