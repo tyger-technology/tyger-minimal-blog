@@ -19,8 +19,8 @@
       <guid>https://tyger-technology.github.io/tyger-minimal-blog/post/syntaxhilight/</guid>
       <description>Hugo syntax hilighing documentation
 Javascript Example
-// index.js var arr = [1, 2, 3, 4, 5]; var b = arr.map(x =&amp;gt; x * x); console.log(b); HTML example
-&amp;lt;section id=&amp;#34;main&amp;#34;&amp;gt; &amp;lt;div&amp;gt; &amp;lt;h1 id=&amp;#34;title&amp;#34;&amp;gt;{{ .Title }}&amp;lt;/h1&amp;gt; {{ range .Data.Pages }} {{ .Render &amp;#34;summary&amp;#34;}} {{ end }} &amp;lt;/div&amp;gt; &amp;lt;/section&amp;gt;</description>
+// index.js var arr = [1, 2, 3, 4, 5]; var b = arr.map(x =&amp;gt; x * x); console.log(b);  HTML example
+&amp;lt;section id=&amp;#34;main&amp;#34;&amp;gt; &amp;lt;div&amp;gt; &amp;lt;h1 id=&amp;#34;title&amp;#34;&amp;gt;{{ .Title }}&amp;lt;/h1&amp;gt; {{ range .Data.Pages }} {{ .Render &amp;#34;summary&amp;#34;}} {{ end }} &amp;lt;/div&amp;gt; &amp;lt;/section&amp;gt; </description>
     </item>
     
     <item>
