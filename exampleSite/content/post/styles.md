@@ -5,7 +5,7 @@ date = 2018-02-02T21:25:10+11:00
 
 *Basic styles*
 
-[link](http://github.com/syaning/vida),
+[link](https://github.com/tyger-technology/tyger-minimal-blog),
 **strong**, *italic*, <del>deletion</del>, <ins>insertion</ins>.
 
 *Headers*
