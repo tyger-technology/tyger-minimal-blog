@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <meta name="generator" content="Hugo 0.55.6" />
+    <meta name="generator" content="Hugo 0.78.0" />
     <link rel="icon" type="image/png" href='https://tyger-technology.github.io/tyger-minimal-blog/favicon.png' />
     <title>Tyger Minimal Blog</title>
     <link href='https://tyger-technology.github.io/tyger-minimal-blog/vendor/bootstrap/css/bootstrap.min.css'  rel="stylesheet">
@@ -40,30 +40,17 @@
   <article class="container blog-post">
     <h1>About</h1>
     
-    
-
-<p>Tyger Minimal Blog is a minimal, responsive, CSS-only <a href="//gohugo.io/">Hugo</a> theme that uses <a href="//getbootstrap.com/">Boostrap 4</a>.</p>
-
+    <p>Tyger Minimal Blog is a minimal, responsive, CSS-only <a href="//gohugo.io/">Hugo</a> theme that uses <a href="//getbootstrap.com/">Boostrap 4</a>.</p>
 <h2 id="installation">Installation</h2>
-
 <p>In your Hugo site <code>themes</code> directory, run:</p>
-
 <div class="highlight"><pre style="background-color:#f0f3f3;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Bash" data-lang="Bash">$ git clone https://github.com/tyger-technology/tyger-minimal-blog/</code></pre></div>
-
 <p>Next, open <code>config.toml</code> in the base of the Hugo site and ensure the theme option is set to <code>tyger-minimal-blog</code>.</p>
-
 <div class="highlight"><pre style="background-color:#f0f3f3;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-toml" data-lang="toml">theme = <span style="color:#c30">&#34;tyger-minimal-blog&#34;</span></code></pre></div>
-
 <p>For more information read the official Hugo <a href="//gohugo.io/getting-started/installing/">setup guide</a>.</p>
-
 <h2 id="config-file-setup">Config File Setup</h2>
-
 <p>Take a look inside the <a href="https://github.com/tyger-technology/tyger-minimal-blog/tree/master/exampleSite"><code>exampleSite</code></a> folder of this theme. You&rsquo;ll find a file called <a href="https://github.com/tyger-technology/tyger-minimal-blog/blob/master/exampleSite/config.toml"><code>config.toml</code></a>. To use it, copy the <a href="https://github.com/tyger-technology/tyger-minimal-blog/blob/master/exampleSite/config.toml"><code>config.toml</code></a> in the root folder of your Hugo site. Feel free to change the strings in this theme.</p>
-
 <p>You may need to delete the line: <code>themesDir = &quot;../..&quot;</code></p>
-
 <p>The example config file includes an menu for an about page and both post and project sections:</p>
-
 <div class="highlight"><pre style="background-color:#f0f3f3;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-toml" data-lang="toml">[[menu.main]]
 identifier = <span style="color:#c30">&#34;about&#34;</span>
 name       = <span style="color:#c30">&#34;About&#34;</span>
@@ -80,46 +67,29 @@ weight     = <span style="color:#f60">1</span>
 identifier = <span style="color:#c30">&#34;projects&#34;</span>
 name       = <span style="color:#c30">&#34;Projects&#34;</span>
 url        = <span style="color:#c30">&#34;/project/&#34;</span></code></pre></div>
-
 <p>If want the menu to show only your sections, remove the example menu and add the following line to the config file:
 <div class="highlight"><pre style="background-color:#f0f3f3;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-toml" data-lang="toml">sectionPagesMenu = <span style="color:#c30">&#34;main&#34;</span></code></pre></div></p>
-
 <p>Refer to the Hugo docs for more information on <a href="https://gohugo.io/content-management/menus/">menu setup</a>.</p>
-
 <p>The footer text, Twitter &amp; Github links can be set in the config file:</p>
-
 <div class="highlight"><pre style="background-color:#f0f3f3;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-toml" data-lang="toml">[params]
   footerText = <span style="color:#c30">&#34;Tyger Minimal Blog Theme&#34;</span>
   twitterUser = <span style="color:#c30">&#34;GoHugoIO&#34;</span>
   githubUser = <span style="color:#c30">&#34;gohugoio&#34;</span></code></pre></div>
-
 <h2 id="theme-defaults">Theme Defaults</h2>
-
 <p>By default, the date is displayed for each content page. To hide the date for a page set:
 <code>hide_date = true</code> in the frontmatter of that page.</p>
-
 <p>The homepage is set to show list of posts in a <em>post</em> section. In the menu, the <em>post</em> item links to the homepage, while all other sections link to a list page showing their entries.</p>
-
 <h2 id="development">Development</h2>
-
 <p>This theme includes the original SCSS files, which you can customize. Serveral NPM scripts are included to automate the compilation and minification of the SCSS files.</p>
-
 <p>To install the development tools, run:</p>
-
 <div class="highlight"><pre style="background-color:#f0f3f3;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Bash" data-lang="Bash">$ npm install</code></pre></div>
-
 <p>To launch the hugo server with the example site and watch for any changes to the SCSS files, run:
 <div class="highlight"><pre style="background-color:#f0f3f3;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Bash" data-lang="Bash">$ npm run watch</code></pre></div></p>
-
 <p>To compile and minify the SCSS files to CSS in the <code>static</code> directory, run:
 <div class="highlight"><pre style="background-color:#f0f3f3;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Bash" data-lang="Bash">$ npm run build</code></pre></div></p>
-
 <h2 id="contributing">Contributing</h2>
-
 <p>Have you found a bug or got an idea for a new feature? Feel free to use the <a href="https://github.com/tyger-technology/tyger-minimal-blog/issues">issue tracker</a> to let me know.</p>
-
 <h2 id="license">License</h2>
-
 <p>This theme is released under the <a href="https://github.com/tyger-technology/tyger-minimal-blog/blob/master/LICENSE.md">MIT license</a>.</p>
 
   </article>
